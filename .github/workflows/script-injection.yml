@@ -11,7 +11,7 @@ jobs:
         env:
           issue_title: ${{ github.event.issue.title }}
         run: |
-          #issue_title="${{ github.event.issue.title }}"
+          #issue_title="${{ github.event.issue.title }}" #just by changing the way you can restrict the script injection
           if [[ "$issue_title" == *"bug"* ]]; then
           echo "Issue is about a bug!"
           else
