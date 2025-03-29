@@ -1,1 +1,3 @@
-# ghe-ninthproject133
+# Example Repo
+
+This is a super simple example repository!
